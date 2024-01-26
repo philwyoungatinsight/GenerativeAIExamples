@@ -39,9 +39,9 @@ services:
       context: ../../
       dockerfile: ./notebooks/Dockerfile.notebooks
     ports:
-    - "8888:8888"
+    - "18888:8888"
     expose:
-    - "8888"
+    - "18888"
     deploy:
       resources:
         reservations:
